@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+
+body{
+  display: flex;
+  background-color: var(--Eggshell);
+  justify-content: center;
+  
+}
+:root{
+  --White: hsl(0, 0%, 100%);
+  --RoseWhite: hsl(330, 100%, 98%);
+  --Eggshell: hsl(30, 54%, 90%);
+  --LightGrey: hsl(30, 18%, 87%);
+  --WengeBrown: hsl(30, 10%, 34%);
+  --DarkCharcoal: hsl(24, 5%, 18%);
+  --Nutmeg: hsl(14, 45%, 36%);
+  --DarkRaspberry: hsl(332, 51%, 32%);
+}
+
+.contenedor{
+  display: flex;
+  flex-direction: column;
+  max-width: 740px;
+  background-color: var(--White);
+  border-radius: 2em;
+}
+.imagen{
+  margin: 40px;
+  height: auto;
+  max-width: 100%;
+  border-radius: 1em;
+}
+.descripcion{
+  margin-left: 40px;
+  margin-right: 40px;
+  max-width: 100%;
+}
+.titulo{
+  font-family: 'Young Serif', serif;
+}
+p,li,.letra{
+  font-family: 'Outfit', sans-serif;
+  color: var(--Wenge-Brown);
+}
+li{
+  line-height:2em;
+}
+.colortitulo{
+  color: var(--DarkRaspberry);
+}
+.preparacion{
+  padding: 10px;
+  background-color: var(--RoseWhite);
+  border-radius: 1em;
+}
+
+.color-egg-shell{
+  color: var(--Nutmeg);
+}
+
+ol li::marker{
+  color: var(--Nutmeg);
+  font-weight: 900;
+}
+ol li{
+  padding-left: 10px;
+}
+
+.tamanio{
+  font-size: 2em;
+}
+
+.tablacontenidos{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.nutricion{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-top: 15px;
+}
+
+.componente-nutricional{
+  display: flex;
+  justify-items: flex-start;
+  font-family: 'Outfit', sans-serif;
+  margin-left: 130px;
+}
+.componente-nutricional-cantidad{
+  font-family: 'Outfit', sans-serif;
+  color: var(--Nutmeg);
+}
+.alinear-izq{
+  border-style: dashed;
+}
+.zzz{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 230px;
+  width: 100%;
+}
+hr{
+  border-color:ghostwhite;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    min-width: 600px;
+  }
+}
