@@ -5,7 +5,7 @@ body{
   display: flex;
   background-color: var(--Eggshell);
   justify-content: center;
-  margin-top: 70px;
+  margin-top: 100px;
 }
 :root{
   --White: hsl(0, 0%, 100%);
