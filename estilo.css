@@ -5,7 +5,7 @@ body{
   display: flex;
   background-color: var(--Eggshell);
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 110px;
 }
 :root{
   --White: hsl(0, 0%, 100%);
@@ -38,6 +38,7 @@ body{
 }
 .titulo{
   font-family: 'Young Serif', serif;
+  font-size: 1.8em;
 }
 p,li,.letra{
   font-family: 'Outfit', sans-serif;
