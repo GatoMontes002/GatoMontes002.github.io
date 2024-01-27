@@ -5,6 +5,7 @@ body{
   display: flex;
   background-color: var(--Eggshell);
   justify-content: center;
+  margin-top: 70px;
 }
 :root{
   --White: hsl(0, 0%, 100%);
@@ -23,7 +24,6 @@ body{
   max-width: 740px;
   background-color: var(--White);
   border-radius: 2em;
-  margin-top: 70px;
 }
 .imagen{
   margin: 40px;
